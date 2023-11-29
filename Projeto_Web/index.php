@@ -25,7 +25,7 @@
         <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="Pg002/pag2.html">Produtos</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="./pg003/Manutenção.html">Peças e Manutenção</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Fale Conosco</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="../fomulario.php">Fale Conosco</a>
       </nav>
 
 
