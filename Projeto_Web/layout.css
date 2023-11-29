@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .content {
+    min-height: 100vh; /* Garante que a página tenha pelo menos 100% da altura da viewport */
+  }
+  
+  
+  header#logotipo {
+    padding: 20px;
+    text-align: center;
+    background-image: url(imagens/Capturar.PNG);
+    background-color: #ed1c24;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+  
+  }
+
+  @font-face {
+    font-family:'Oswald', sans-serif; /* Nome da fonte que você deseja usar */
+    src: url('caminho_para_a_fonte/fonte.ttf'); /* Caminho para o arquivo da fonte */
+  }
+  
+  header#logotipo h1 {
+    font-family: 'MinhaFonteBiblica', 'Times New Roman', serif; /* Use a fonte incorporada */
+    font-size: 70px;
+    margin: 0;
+    text-shadow: 0.1em 0.1em 0.2em black
+    
+   
+  }
+  
+ 
+  
+  main {
+    background-color: #4f575e;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  nav.nav {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .carrossel {
+    flex: 1;
+    padding: 20px;
+    max-height: 70vh;
+    overflow: auto;
+  }
+
+  .card-deck {
+    flex: 1;
+    padding: 20px;
+    max-height: 70vh;
+
+  }
+  
+  .mapBox {
+    padding: 20px;
+    max-height: 70vh;
+    margin-top: 86px;
+    margin-bottom: 10px;
+    flex: 1;
+  }
+  
+  footer.contato {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilizações para o carrossel */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilizações para a navegação */
+  .nav {
+    background-color: #343a40;
+  }
+  
+  .nav a {
+    color: #ffffff;
+  }
+  
+  .nav a:hover {
+    background-color: #454d55;
+  }
+  
+  /* Estilizações para o mapa */
+  .mapBox iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  /* Estilizações para o rodapé */
+  footer.contato {
+    color: #ffffff;
+  }
+  
+  /* Estilos para dispositivos maiores (layout de duas colunas) */
+  @media (min-width: 768px) {
+    main {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .nav {
+      flex: 1;
+      margin-right: 20px;
+    }
+  
+    .carrossel, .mapBox {
+      flex: 2;
+      margin-left: 20px;
+    }
+  }
+
+  .footer {
+    background-image: url('imagens/footer_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-contact, .footer-social {
+    width: 35%;
+    padding: 10px;
+  }
+  
+  .footer-social img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+  
+  .footer-credits {
+    color: #343a40;
+    width: 100%;
+    margin-top: 5%;
+    
+  }
+  
+  

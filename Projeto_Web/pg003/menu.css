@@ -1,0 +1,69 @@
+body{
+    background-color:silver;
+}
+header#logotipo {
+    padding: 20px;
+    text-align: center;
+    background-image: url(logo.jpeg);
+    background-color: #ed1c24;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+  
+  }
+  header#logotipo h1 {
+    font-family: 'MinhaFonteBiblica', 'Times New Roman', serif; /* Use a fonte incorporada */
+    font-size: 70px;
+    margin: 0;
+    text-shadow: 0.1em 0.1em 0.2em black
+    
+   
+  }
+#menu{
+    background-color:black;
+
+}
+
+#menu ul{
+    list-style: none;
+}
+
+
+#menu ul li {
+    display: inline;
+    
+}
+
+.navBar {
+    text-align: center;
+}
+
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    padding-top: 1;
+}
+#menu ul li a:hover{
+    background-color:red;
+}
+
+ .card-deck{
+padding: 1px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 100px;
+image-resolution: 20px;
+padding-bottom: 25px;
+
+}
+  
+
+.footer{
+    background-color: #fff9f9;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
