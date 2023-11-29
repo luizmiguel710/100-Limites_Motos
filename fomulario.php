@@ -69,19 +69,19 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
-                <p>Sexo:</p>
+                <!-- <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <br>
                 <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="masculino">Masculino</label>
-                <br>
+                <br> -->
                 <!-- <input type="radio" id="outro" name="genero" value="outro" required>
                 <label for="outro">Outro</label> -->
-                <br><br>
+                <!-- <br><br>
                 <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                <input type="date" name="data_nascimento" id="data_nascimento" required>
-                <br><br><br>
+                <input type="date" name="data_nascimento" id="data_nascimento" required> -->
+                <br><br>
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
                     <label for="cidade" class="labelInput">Cidade</label>
