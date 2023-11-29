@@ -20,35 +20,21 @@ header#logotipo {
    
   }
 #menu{
-    background-color:black;
+    background-color:#343a40;
 
 }
 
-#menu ul{
-    list-style: none;
+main {
+    background-color: #454d55;
 }
 
-
-#menu ul li {
-    display: inline;
-    
-}
-
-.navBar {
-    text-align: center;
-}
-
-
-#menu ul li a{
-    color: white;
-    text-decoration: none;
-    padding: 30px;
-    display: inline-block;
-    padding-top: 1;
-}
-#menu ul li a:hover{
-    background-color:red;
-}
+.nav a {
+    color: #ffffff;
+  }
+  
+  .nav a:hover {
+    background-color: #454d55;
+  }
 
  .card-deck{
 padding: 1px;

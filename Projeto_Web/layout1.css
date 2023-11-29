@@ -42,8 +42,6 @@ body {
    
   }
   
- 
-  
   main {
     background-color: #4f575e;
     display: flex;
@@ -54,6 +52,10 @@ body {
   nav.nav {
     flex: 1;
     text-align: center;
+  }
+
+  .fale-conosco {
+    padding: 40px;
   }
   
   .carrossel {
