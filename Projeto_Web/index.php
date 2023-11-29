@@ -11,7 +11,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
     </style>
     <link rel="icon" type="imagen/png" href="imagens/caveira-e-ossos.png">
-  <title>Sem Limite Motos.</title>
+  <title>Sem Limite Motos</title>
 </head>
 
 <body class="content">
