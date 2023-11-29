@@ -1,7 +1,6 @@
 <?php 
 
-   if(isset($_POST['submit']))
-   {
+   if(isset($_POST['submit'])){
         //  print_r('nome:' . $_POST['nome']);
         //  print_r('<br>');
         //  print_r('Email:' . $_POST['email']);
@@ -18,7 +17,7 @@
         //  print_r('<br>');
         //  print_r('Endereço:'. $_POST['endereco']);
 
-        include_once('config.php');
+        include_once('./Projeto_Web/sql/config.php');
 
         $nome =  $_POST['nome'];
         $email = $_POST['email'];
@@ -31,6 +30,7 @@
 
         $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,sexo,data_nsc,cidade,estado,endereco)values('$nome', '$email','$telefone', '$sexo','$data_nasc', '$cidade','$estado', '$endereco' )");
 
+        header('Location: ./Projeto_Web/index.php');
    }
 
 
@@ -51,7 +51,7 @@
 <body>
     <img src="pngtree-biker-skull-image-png-image_6212426.png"  class="caveira">
     <div class="box">    
-        <form action="formulario.php" method="POST">
+        <form action="./fomulario.php" method="POST">
             <fieldset>
                 <legend><b>Fale conosco</b></legend>
                 <br>
