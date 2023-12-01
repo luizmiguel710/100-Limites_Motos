@@ -4,7 +4,7 @@ body{
 header#logotipo {
     padding: 20px;
     text-align: center;
-    background-image: url(logo.jpeg);
+    background-image: url(../imagens/Capturar.PNG);
     background-color: #ed1c24;
     background-repeat: no-repeat;
     background-size: contain;

@@ -27,8 +27,38 @@
         $cidade = $_POST['cidade'];
         $estado = $_POST['estado'];
         $endereco = $_POST['endereco'];
+        $curriculo = $_POST['curriculo'];
 
-        $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,cidade,estado,endereco)values('$nome', '$email','$telefone', '$cidade','$estado', '$endereco' )");
+        if (isset($_FILES["curriculo"])) {
+
+            // Obtém o arquivo enviado
+            $arquivo = $_FILES["curriculo"];
+          
+            // Verifica se o arquivo é um PDF
+            if ($arquivo["type"] == "application/pdf") {
+          
+              // Verifica se o arquivo é válido
+              if ($arquivo["error"] == UPLOAD_ERR_OK) {
+          
+                // Salva o arquivo no disco
+                move_uploaded_file($arquivo["tmp_name"], "curriculos/" . $arquivo["name"]);
+          
+                // Exibe uma mensagem de sucesso
+                echo "O arquivo foi enviado com sucesso!";
+              } else {
+          
+                // Exibe uma mensagem de erro
+                echo "O arquivo enviado é inválido.";
+              }
+            } else {
+          
+              // Exibe uma mensagem de erro
+              echo "O arquivo enviado não é um PDF.";
+            }
+          }
+          
+
+        $result = mysqli_query($conexao, "INSERT INTO candidatos(nome,email,telefone,cidade,estado,endereco,curriculo)values('$nome', '$email','$telefone', '$cidade','$estado', '$endereco', '$curriculo' )");
 
         header('Location: ./Projeto_Web/index.php');
    }
@@ -53,7 +83,7 @@
     <div class="box">    
         <form action="./fomulario.php" method="POST">
             <fieldset>
-                <legend><b>Fale conosco</b></legend>
+                <legend><b>Trabalhe Conosco</b></legend>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
@@ -96,8 +126,15 @@
                     <input type="text" name="endereco" id="endereco" class="inputUser" required>
                     <label for="endereco" class="labelInput">Endereço</label>
                 </div>
+                <br>
+                <div class="inputBox">
+                <label for="curriculo">Envie seu curriculo</label>   
+                <input type="file" name="curriculo" accept="application/pdf" placeholder="Currículo">
+                
+                
+                </div>
                 <br><br>
-                <input type="submit" name="submit" id="submit">
+                <input type="submit" name="submit" id="submit" value="Enviar">
             </fieldset>
         </form>
     </div>

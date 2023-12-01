@@ -25,7 +25,7 @@
         <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="Pg002/pag2.html">Produtos</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="./pg003/Manutenção.html">Peças e Manutenção</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="../fomulario.php">Fale Conosco</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="../fomulario.php">Trabalhe Conosco</a>
       </nav>
 
 
@@ -99,19 +99,19 @@
       <div class="footer-content">
         <div class="footer-contact">
           <h3>Entre em Contato Conosco</h3>
-          <p>Telefone: (123) 456-7890</p>
+          <p>Telefone: (11) 456-7890</p>
           <p>Email: info@sem-limitemotos.com</p>
         </div>
         <div class="footer-social">
           <h3>Siga-nos nas Redes Sociais</h3>
-          <a href="https://www.instagram.com/semlimitemotos" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
-          <a href="https://www.facebook.com/semlimitemotos" target="_blank"><img src="imagens/facebook.png" alt="Facebook"></a>
-          <a href="https://wa.me/1234567890" target="_blank"><img src="imagens/whatsapp.png" alt="WhatsApp"></a>
+          <a href="https://www.instagram.com/semlimitesmotos/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/semlimitesmotoss/?locale=pt_BR" target="_blank"><img src="imagens/facebook.png" alt="Facebook"></a>
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwhats.link%2Fsemlimitesmotos&e=AT01WuAtB3EqKj00YtwttoANo93Ul__GY5RR5n4eXfO2YDbDCwaTyu-IXMMQ1PsqqlGjC5tKAAHX5q9BJjC6h39c-j4iHO99jaDQv-uH_ssAHoXZ_TrbSQ" target="_blank"><img src="imagens/whatsapp.png" alt="WhatsApp"></a>
         </div>
       </div>
       <div class="footer-credits">
          <p>.</p>
-        <!-- <p>Criado por Jefferson Santana, Luiz Miguel e Claudio Brandão</p> -->
+        <p>Criado por Jefferson Santana, Luiz Miguel e Claudio Brandão</p>
       </div>
     </footer>
     
