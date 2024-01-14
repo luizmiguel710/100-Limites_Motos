@@ -110,8 +110,8 @@
         </div>
       </div>
       <div class="footer-credits">
-         <p>.</p>
-        <p>Criado por Jefferson Santana, Luiz Miguel e Claudio Brandão</p>
+         <p></p>
+        <p></p>
       </div>
     </footer>
     
